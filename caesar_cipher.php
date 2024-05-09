@@ -1,7 +1,7 @@
 <?php 
 /**
  * 
- * Generate caser cipher key 
+ * Generate caesar cipher key 
  * 
  */
 function generate_key($n)
