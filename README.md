@@ -6,12 +6,12 @@ Inside, you’ll find examples, best practices, and libraries that adhere to the
 
 Explore, contribute, and stay secure!
 
-**blockCipherDES.php** DES-CBC block cipher example
+**blockCipherDES.php :** DES-CBC block cipher example
 
-**caesar_cipher.php**  Caesar cipher implimentation in php
+**caesar_cipher.php :**  Caesar cipher implimentation in php
 
-**php-decrypt-caesar.php** Php caesar cipher decryption
+**php-decrypt-caesar.php :** Php caesar cipher decryption
 
-**simple_permutations.php** Permutations demo in php
+**simple_permutations.php :** Permutations demo in php
 
-**streamCipher.php** Stream cipher demo in php
+**streamCipher.php :** Stream cipher demo in php
