@@ -5,3 +5,13 @@ Welcome to “Modern Cryptography in PHP” – a comprehensive repository dedic
 Inside, you’ll find examples, best practices, and libraries that adhere to the latest advancements in cryptography. Whether you’re securing web applications, safeguarding user data, or ensuring secure communication channels, this repository aims to equip you with the tools and knowledge necessary for robust security in the digital age.
 
 Explore, contribute, and stay secure!
+
+**blockCipherDES.php** DES-CBC block cipher example
+
+**caesar_cipher.php**  Caesar cipher implimentation in php
+
+**php-decrypt-caesar.php** Php caesar cipher decryption
+
+**simple_permutations.php** Permutations demo in php
+
+**streamCipher.php** Stream cipher demo in php
