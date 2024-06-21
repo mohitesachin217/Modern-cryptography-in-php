@@ -26,9 +26,11 @@ python==3.11
 ```
 
 # Generate a 2048-bit RSA private key
-<pre>
+```bash
 openssl genpkey -algorithm RSA -out private_key.pem -pkeyopt rsa_keygen_bits:2048
-</pre>
+```
 
 # Extract the public key from the private key
-<pre>openssl rsa -pubout -in private_key.pem -out public_key.pem</pre>
+```bash
+openssl rsa -pubout -in private_key.pem -out public_key.pem
+```
