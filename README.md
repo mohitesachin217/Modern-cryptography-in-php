@@ -21,10 +21,6 @@ To create public key and private key paid use openssl on ubnutu:
 
 Commands:
 
-```bash
-python==3.11
-```
-
 # Generate a 2048-bit RSA private key
 ```bash
 openssl genpkey -algorithm RSA -out private_key.pem -pkeyopt rsa_keygen_bits:2048
