@@ -23,8 +23,8 @@ Commands:
 
 # Generate a 2048-bit RSA private key
 <pre>
-**openssl genpkey -algorithm RSA -out private_key.pem -pkeyopt rsa_keygen_bits:2048**
+openssl genpkey -algorithm RSA -out private_key.pem -pkeyopt rsa_keygen_bits:2048
 </pre>
 
 # Extract the public key from the private key
-**openssl rsa -pubout -in private_key.pem -out public_key.pem**
+<pre>openssl rsa -pubout -in private_key.pem -out public_key.pem</pre>
