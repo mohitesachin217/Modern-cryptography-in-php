@@ -17,7 +17,7 @@ Explore, contribute, and stay secure!
 **streamCipher.php :** Stream cipher demo in php
 
 
-To create public key and private key paid use openssl on ubnutu:
+To create public key and private key pair use openssl on ubnutu:
 
 Commands:
 
