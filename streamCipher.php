@@ -9,8 +9,8 @@ class KeyStream {
 
     /**
     * Linear congruential generator is used to generate a sequence of pseudo-random numbers.
-    * It is an implementation of a linear congruential generator (LCG), which is one of the oldest and simplest algorithms 
-    * for generating pseudo-random numbers.
+    * It is an implementation of a linear congruential generator (LCG), which is one of the oldest 
+    * and simplest algorithms for generating pseudo-random numbers.
     */
     private function rand() {
         $this->next = (1103515245 * $this->next + 12345) % (2 ** 31);
