@@ -15,3 +15,14 @@ Explore, contribute, and stay secure!
 **simple_permutations.php :** Permutations demo in php
 
 **streamCipher.php :** Stream cipher demo in php
+
+
+To create public key and private key paid use openssl on ubnutu:
+
+Commands:
+
+# Generate a 2048-bit RSA private key
+**openssl genpkey -algorithm RSA -out private_key.pem -pkeyopt rsa_keygen_bits:2048**
+
+# Extract the public key from the private key
+**openssl rsa -pubout -in private_key.pem -out public_key.pem**
