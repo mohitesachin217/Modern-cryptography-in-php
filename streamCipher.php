@@ -27,12 +27,6 @@ function encrypt($key, $message) {
 
 $key = new KeyStream(10);
 
-//$bytes = [];
-//for ($i = 0; $i < 10; $i++) {
-//    $bytes[] = $key->getKeyByte();
-//}
-//print_r($bytes);
-
 $message = "Hello, World";
 
 $cipher = encrypt($key, $message);
